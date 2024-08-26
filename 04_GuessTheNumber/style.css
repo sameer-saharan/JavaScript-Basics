@@ -40,7 +40,7 @@ h1{
 
 label {
     font-size: 25px;
-    font-family: 'Salsa', cursive;
+    font-family: 'Salsa-Regular';
     font-weight: bold;
 }
 #guessBar {
@@ -50,7 +50,7 @@ label {
     border: solid black 6px;
     padding: 5px;
     font-size: 25px;
-    font-family: 'Salsa', cursive;
+    font-family: 'Salsa-Regular';
     font-weight: bold;
 
 }
@@ -78,7 +78,7 @@ label {
     /* color: #E30707; */
     margin-bottom: 30px;
     font-size: 25px;
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Righteous';
     font-weight: bold;
 }
 #hint {
@@ -91,7 +91,7 @@ label {
 .stats-board{
     width: 800px;
     height: 250px;
-    font-family: 'Salsa', cursive;
+    font-family: 'Salsa-Regular';
     font-size: 30px;
     box-shadow: 1px 1px 10px black;
 }
@@ -104,7 +104,7 @@ label {
     box-shadow: 1px 1px 10px black;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Salsa', cursive;
+    font-family: 'Salsa-Regular';
 }
 
 #new-game:hover {

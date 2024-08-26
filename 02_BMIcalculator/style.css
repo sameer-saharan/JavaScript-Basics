@@ -77,7 +77,7 @@ button:hover {
     height: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Salsa', cursive;
+    font-family: 'Salsa';
     font-weight: bold;
     font-size: 25px;
     box-shadow: 1px 1px 10px black;
@@ -86,7 +86,7 @@ button:hover {
 }
 
 h3 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas-Neue';
 }
 
 

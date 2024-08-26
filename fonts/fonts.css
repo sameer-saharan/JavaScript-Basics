@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Salsa-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Salsa/Salsa-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Bebas-Neue";
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Righteous/Righteous-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: bold;
+    src: url('./Kanit/Kanit-Bold.ttf') format('truetype');
+}

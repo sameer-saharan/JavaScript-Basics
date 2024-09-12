@@ -13,11 +13,13 @@
     </nav>
     <div class="container">
         <div class="todo-app">
+            <label for="title">Title: </label>
             <input type="text" id="title" placeholder="title"> </input> <br><br>
-            <input type="text" id="description" placeholder="description"> </input> <br><br>
-            <button onclick="addToDo()">Add To-Do</button> <br>
-            <button onclick="showState()">Load State</button> <br>
+            <textarea type="text" id="description" rows="8" cols="28" placeholder="Enter your description here"> </textarea> <br><br>
+            <button class="button" onclick="addToDo()">Add To-Do</button> <br>
+            <button class="button" onclick="showState()">Load State</button> <br>
         </div>
+        <br>
         <div class="todo-list">
 
         </div>

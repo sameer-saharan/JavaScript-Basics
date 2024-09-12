@@ -64,7 +64,7 @@ label {
     color: black;
     font-size: 20px;
     font-weight: bold;
-
+    cursor: pointer;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -75,7 +75,6 @@ label {
 }
 
 .hintAndResult {
-    /* color: #E30707; */
     margin-bottom: 30px;
     font-size: 25px;
     font-family: 'Righteous';
@@ -89,11 +88,12 @@ label {
  }
 
 .stats-board{
-    width: 800px;
+    width: 520px;
     height: 250px;
     font-family: 'Salsa-Regular';
     font-size: 30px;
     box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
 }
 
 #new-game {
@@ -105,10 +105,27 @@ label {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Salsa-Regular';
+    cursor: pointer;
 }
 
 #new-game:hover {
     color: white;
     background-color: black ;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 448px) {
+    .stats-board {
+        width: 350px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .stats-board {
+        width: 300px;
+        font-size: 20px;
+    }
 }
 

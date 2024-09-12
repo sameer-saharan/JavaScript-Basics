@@ -16,3 +16,21 @@ nav a:hover {
     background-color: #FF2D2D;
     color: white;
 }
+
+#title {
+    padding: 2px;
+    font-size: 12px;
+    width: 150px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+#description {
+    font-size: 10px;
+}

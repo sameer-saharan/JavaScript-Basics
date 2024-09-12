@@ -45,10 +45,10 @@ function checkGuess(guess) {
         endGame()
     } else if (guess < randomNum) {
         lowHigh.style.color = "#E30707"
-        displayMessage(`<span id="hint">Hint:</span> Number is Low`)
+        displayMessage(`<span id="hint">Hint:</span> Number > ${guess}`)
     } else if (guess > randomNum) {
         lowHigh.style.color = "#E30707"
-        displayMessage(`<span id="hint">Hint:</span> Number is High`)
+        displayMessage(`<span id="hint">Hint:</span> Number < ${guess}`)
     }
 };
 

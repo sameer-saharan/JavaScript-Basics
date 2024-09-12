@@ -13,9 +13,12 @@ div {
 }
 
 p{
-    font-family: 'Kanit';
-    font-weight: bold;
     font-size: 25px;
+    font-family: sans-serif;
+}
+
+.button-names {
+    font-family: 'Kanit';
 }
 
 #start, #stop, #reset {

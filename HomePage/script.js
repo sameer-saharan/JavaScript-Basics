@@ -47,11 +47,8 @@ headingElement.addEventListener('mouseover', () => {
 containerElement.style.display = 'flex';
 containerElement.style.flexDirection = 'column';
 containerElement.style.alignItems = 'center';
-containerElement.style.fontSize = '25px';
-containerElement.style.fontFamily = 'Salsa, cursive';
 
 divElements.forEach(div => {
-    div.style.width = '400px';
     div.style.textAlign = 'left';
     div.style.textDecoration = 'none';
     div.style.color = 'black';
@@ -63,16 +60,13 @@ divElements.forEach(div => {
     div.style.transition = 'all 0.5s ease-in-out';
 
     div.addEventListener('mouseover', () => {
-        div.style.width = '450px';
         div.style.backgroundColor = '#FEC000';
         div.style.marginTop = '12px';
         div.style.marginBottom = '30px';
     });
 
     div.addEventListener('mouseout', () => {
-        div.style.width = '400px';
         div.style.backgroundColor = 'white';
-        div.style.marginTop = '';
         div.style.marginBottom = '20px';
     });
 });

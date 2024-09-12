@@ -1,13 +1,3 @@
-const text = document.querySelector(".text")
-function changeText() {
-    text.innerHTML = "Press any Key<span>|</span>"
-};
-function changeTextTwo() {
-    text.innerHTML = "Press any Key<span></span>"
-};
-setInterval(changeText, 500);
-setInterval(changeTextTwo, 1000);
-
 const insert = document.querySelector(".insert")
 
 window.addEventListener('keydown', function(event) {

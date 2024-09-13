@@ -42,6 +42,8 @@ main {
 /* Media Queries*/
 @media only screen and (max-width: 680px) {
     #clock {
+        width: 350px;
+        height: 200px;
         font-size: 60px;
     }
 }
